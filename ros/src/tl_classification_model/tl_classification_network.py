@@ -12,8 +12,8 @@ from random import shuffle
 import h5py
 
 # Here is the directory of the ready made data
-required_data_folder = 'RedLightDistanceData'
-#required_data_folder = 'LightStatusData'
+#required_data_folder = 'RedLightDistanceData'
+required_data_folder = 'LightStatusData'
 current_dir = os.getcwd()
 
 filesDir = os.path.join(current_dir, required_data_folder)
